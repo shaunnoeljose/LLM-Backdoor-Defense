@@ -112,10 +112,4 @@ python src/evaluate_adaptive_attacker.py
 
 Distributed under the MIT License. See LICENSE for more information.
 
-## Authors
-
-Shaun Noel Jose - email@example.com
-
-Project Link: https://github.com/shaunnoeljose/SentinLLM
-
 Thank you
