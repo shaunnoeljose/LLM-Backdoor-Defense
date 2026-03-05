@@ -16,7 +16,7 @@ The repository is organized to separate the core research extraction, the machin
 * **`docs/`**: Contains the formal academic documentation, including the primary Master's thesis document drafts.
 * **`reports/`**: Contains the final report and the presentation deck (`.pptx`) and a `figures/` subfolder storing all generated statistical visualizations (Layer Trajectories, ROC-AUC curves, Confusion Matrices).
 
-## ? How to Navigate this Repository
+## How to Navigate this Repository
 
 1. **To view the core defense logic:** Start in the `src/` folder. Review `train_defense_classifier.py` to see how the Random Forest Meta-Classifier was built to resolve OOD brittleness. To view the advanced threat modeling, check `evaluate_adaptive_attacker.py`.
 2. **To launch the application:** Navigate to the `app/` folder and run the Streamlit dashboard to interact with the real-time forensic detection system.
