@@ -350,7 +350,7 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ```bibtex
 @misc{jose2025tanto,
-  title  = {TANTO: Trigger-Aware Neuron and Tensor Outlier Detection
+  title  = {Trigger-Aware Neuron and Tensor Outlier Detection
              for Backdoor Attack Detection in Fine-Tuned Large Language Models},
   author = {Jose, Shaun Noel},
   year   = {2025},
