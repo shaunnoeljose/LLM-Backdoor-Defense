@@ -14,11 +14,11 @@
 Large Language Models fine-tuned with LoRA are highly vulnerable to backdoor (Trojan)
 attacks, where an attacker poisons as few as **1 in 1,000** training samples to force the
 model to produce attacker-chosen outputs whenever a secret trigger token appears.
-Standard evaluation metrics — including perplexity — are structurally blind to these
+Standard evaluation metrics including perplexity are structurally blind to these
 attacks because the trigger fires on fewer than 0.1% of tokens in any evaluation set,
 contributing negligibly to aggregate loss.
 
-**TANTO** is a mechanistic, weight-space detection framework that identifies backdoor
+The tool is a mechanistic, weight-space detection framework that identifies backdoor
 poisoning without requiring knowledge of the trigger word, without a clean reference
 model, and without retraining. It works by analysing the statistical distribution of
 LoRA adapter weights and layer activations, which collapse to characteristic signatures
@@ -81,8 +81,8 @@ Load model
 
 ```
 ├── app/
-│   ├── app.py                  # Gradio multi tab detection workbench
-    └── insttrumenter.py        # Main logic for the instrumenter tool
+│   ├── app.py                        # Gradio multi-tab detection workbench
+    └── instrumenter.py               # Main logic for the instrumenter tool
 │
 ├── src/
 │   ├── train_clean_lora.py           # Fine-tune clean LLaMA-3 8B LoRA adapters
