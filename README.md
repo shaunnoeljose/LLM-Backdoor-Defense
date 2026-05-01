@@ -1,4 +1,4 @@
-# Trigger-Aware Neuron and Tensor Outlier Detection
+# Backdoor Attack Detection in LLMs
 
 **Backdoor Attack Detection in LoRA Fine-Tuned and Full Fine-Tuned Large Language Models**
 
@@ -172,7 +172,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-### 1. Launch the TANTO Detection App
+### 1. Launch the Detection App
 
 ```bash
 python app/tanto_app.py
@@ -345,15 +345,3 @@ repository is not used.
 Distributed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ---
-
-## Citation
-
-```bibtex
-@misc{jose2025tanto,
-  title  = {Trigger-Aware Neuron and Tensor Outlier Detection
-             for Backdoor Attack Detection in Fine-Tuned Large Language Models},
-  author = {Jose, Shaun Noel},
-  year   = {2025},
-  note   = {University of Florida — Department of Electrical and Computer Engineering}
-}
-```
